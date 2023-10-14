@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group name="ATF_TestGroup_ServiceDesk">2156c3a80b982300cac6c08393673a7e</group>
+        <location/>
+        <match_all>false</match_all>
+        <name>task1</name>
+        <role name="announcement_admin">eec503f5e7d3320075c2a117c2f6a92e</role>
+        <script><![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
+* Populate `answer` with true/false or evaluate to true/false
+* The script is evaluated in the scope the user criteria is defined
+* Don't use `current` in the script or populate the variable
+* Don't use `gs.getUser()` or  `gs.getUserID()`, 
+* instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
+*/]]></script>
+        <short_description/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-13 05:26:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6a7a06e47b93110b2bdd921236d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>user_criteria_a6a7a06e47b93110b2bdd921236d43ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-13 05:26:51</sys_updated_on>
+        <user>a2826bf03710200044e0bfc8bcbe5ded</user>
+    </user_criteria>
+</record_update>

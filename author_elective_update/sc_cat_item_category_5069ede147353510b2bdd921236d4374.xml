@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Copy of task1">d46929e147353510b2bdd921236d430a</sc_cat_item>
+        <sc_category display_value="SN_Edu_テスト">a704e45147953110b2bdd921236d4312</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 07:37:42</sys_created_on>
+        <sys_id>5069ede147353510b2bdd921236d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SN_Edu_テスト.Copy of task1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_category_5069ede147353510b2bdd921236d4374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 07:37:42</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>343a290ddbd959944d2bac44d49619ad</instance_id>
+        <instance_name>dev131691</instance_name>
+        <name>sc_cat_item_category_5069ede147353510b2bdd921236d4374</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of task1">d46929e147353510b2bdd921236d430a</sc_cat_item><sc_category display_value="SN_Edu_テスト">a704e45147953110b2bdd921236d4312</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-10 07:37:42</sys_created_on><sys_id>5069ede147353510b2bdd921236d4374</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SN_Edu_テスト.Copy of task1</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_cat_item_category_5069ede147353510b2bdd921236d4374</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-10 07:37:42</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-492990472</payload_hash>
+        <record_name>SN_Edu_テスト.Copy of task1</record_name>
+        <reverted_from/>
+        <source>7f24a1bc47793110b2bdd921236d43fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 07:37:42</sys_created_on>
+        <sys_id>9869ede147353510b2bdd921236d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b18852b9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 07:37:42</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>dc69ede100353510f1cd5219deba8776</update_guid>
+        <update_guid_history>dc69ede100353510f1cd5219deba8776:-492990472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SN_Edu_テスト.Copy of task1">02a2827947397510b2bdd921236d4339</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-11 04:06:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>27a4645c4e3442f48aa7d3fa0ded6371</sys_id>
+        <sys_metadata>5069ede147353510b2bdd921236d4374</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SN_Edu_テスト.Copy of task1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_5069ede147353510b2bdd921236d4374</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_5069ede147353510b2bdd921236d4374">9869ede147353510b2bdd921236d4377</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-11 04:06:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

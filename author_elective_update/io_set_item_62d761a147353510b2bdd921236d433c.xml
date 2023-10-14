@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>5</order>
+        <sc_cat_item display_value="task1">3274a5e947f13510b2bdd921236d4331</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 07:32:12</sys_created_on>
+        <sys_id>62d761a147353510b2bdd921236d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Item location step.task1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>io_set_item_62d761a147353510b2bdd921236d433c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 07:32:12</sys_updated_on>
+        <variable_set display_value="Item location step">2831d25177179110d26b8f1a5b5a99e5</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>343a290ddbd959944d2bac44d49619ad</instance_id>
+        <instance_name>dev131691</instance_name>
+        <name>io_set_item_62d761a147353510b2bdd921236d433c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>5</order><sc_cat_item display_value="task1">3274a5e947f13510b2bdd921236d4331</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-10 07:32:12</sys_created_on><sys_id>62d761a147353510b2bdd921236d433c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Item location step.task1</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>io_set_item_62d761a147353510b2bdd921236d433c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-10 07:32:12</sys_updated_on><variable_set display_value="Item location step">2831d25177179110d26b8f1a5b5a99e5</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>787075236</payload_hash>
+        <record_name>Item location step.task1</record_name>
+        <reverted_from/>
+        <source>7f24a1bc47793110b2bdd921236d43fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 07:32:12</sys_created_on>
+        <sys_id>7f18a5a147353510b2bdd921236d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b1880240d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 07:32:12</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>b318a5a10f353510f226fc065b3c88c3</update_guid>
+        <update_guid_history>b318a5a10f353510f226fc065b3c88c3:787075236</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Item location step.task1">542969e147353510b2bdd921236d43f4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 07:36:37</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>6cb7762cdefc428194033b338b19b5e1</sys_id>
+        <sys_metadata>62d761a147353510b2bdd921236d433c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Item location step.task1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>io_set_item_62d761a147353510b2bdd921236d433c</sys_update_name>
+        <sys_update_version display_value="io_set_item_62d761a147353510b2bdd921236d433c">7f18a5a147353510b2bdd921236d43c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 07:36:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" sizeclass="0" type="collection"/>
+    <element attributes="hasLabels=true" audit="true" db_object_id="c98421b047b93110b2bdd921236d43af" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
+        <element display="true" label="assinged_to" max_length="32" name="assinged_to" reference="sys_user" reference_qual="name=Beth Anglin^EQ" reference_qual_condition="name=Beth Anglin^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element choice="1" label="Sate" max_length="40" name="sate" type="choice">
+            <choice>
+                <element dependent_value="1" inactive_on_update="false" label="Open" value="1"/>
+                <element dependent_value="1" inactive_on_update="false" label="Work in Progress" value="2"/>
+            </choice>
+        </element>
+    </element>
 </database>
