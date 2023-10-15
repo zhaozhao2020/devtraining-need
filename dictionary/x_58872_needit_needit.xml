@@ -18,7 +18,7 @@
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="hr" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Developer Enablement" sequence="0" value="dev_enable"/>
                 <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
@@ -28,16 +28,16 @@
         </element>
         <element attributes="edge_encryption_enabled=true" dependent="follow_up" dependent_on_field="follow_up" label="string" max_length="40" name="u_string_4" type="string" use_dependent_field="true"/>
         <element attributes="encode_utf8=false" label="test" max_length="32" name="u_test_2" reference="sys_user" reference_qual="sys_updated_onBETWEENjavascript:gs.dateGenerate('2023-10-11','00:00:00')@javascript:gs.dateGenerate('2023-10-12','23:59:59')^EQ" reference_qual_condition="sys_updated_onBETWEENjavascript:gs.dateGenerate('2023-10-11','00:00:00')@javascript:gs.dateGenerate('2023-10-12','23:59:59')^EQ" type="reference" use_dependent_field="true"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="hr1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" dependent="u_request_type" dependent_on_field="u_request_type" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string" use_dependent_field="true">
             <choice>
-                <element inactive_on_update="false" label="Human Resources 1" sequence="0" value="hr1"/>
+                <element dependent_value="hr" inactive_on_update="false" label="Human Resources 1" sequence="0" value="hr1"/>
                 <element inactive="true" inactive_on_update="true" label="Your Department Choice 1" sequence="0" value="your_choice1"/>
-                <element inactive_on_update="false" label="Human Resources 2" sequence="1" value="hr2"/>
+                <element dependent_value="hr" inactive_on_update="false" label="Human Resources 2" sequence="1" value="hr2"/>
                 <element inactive="true" inactive_on_update="true" label="Your Department Choice 2" sequence="1" value="your_choice2"/>
-                <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities1"/>
-                <element inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities2"/>
-                <element inactive_on_update="false" label="Legal 1" sequence="4" value="legal1"/>
-                <element inactive_on_update="false" label="Legal 2" sequence="5" value="legal2"/>
+                <element dependent_value="facilities" inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities1"/>
+                <element dependent_value="facilities" inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities2"/>
+                <element dependent_value="legal" inactive_on_update="false" label="Legal 1" sequence="4" value="legal1"/>
+                <element dependent_value="legal" inactive_on_update="false" label="Legal 2" sequence="5" value="legal2"/>
                 <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
             </choice>
         </element>
